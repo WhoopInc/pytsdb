@@ -1,10 +1,12 @@
 # pytsdb
 
 > Featureless Python adapter for OpenTSDB
+## Requirements
+Requires Python version 3.3 or greater
 
 ## Installation
 ```bash
-pip3 install git+ssh://git@github.com/WhoopInc/pytsdb@v0.2.1
+pip3 install git+ssh://git@github.com/WhoopInc/pytsdb@v0.2.2
 ```
 
 ## Usage

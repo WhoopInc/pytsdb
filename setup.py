@@ -1,4 +1,8 @@
 from setuptools import setup
+import sys 
+
+if sys.version_info < (3,3):
+    sys.exit('Sorry, Python < 3.3 is not supported')
 
 setup(
     name='pytsdb',
